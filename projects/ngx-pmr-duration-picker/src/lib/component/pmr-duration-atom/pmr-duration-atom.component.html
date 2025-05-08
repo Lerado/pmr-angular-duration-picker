@@ -5,7 +5,7 @@
       [class.filled]="value"
       type="number"
       [ngModel]="value || null"
-      [attr.disabled]="disabled"
+      [disabled]="disabled"
       (ngModelChange)="onValueChange($event)"
     />
   <label class="pmr-duration-atom-label">{{ label }}</label>
